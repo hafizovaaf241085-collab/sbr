@@ -240,6 +240,33 @@
         .legal-note strong {
             color: #7a5d1a;
         }
+        .argument-block {
+            background: #f0f7fc;
+            border-radius: 14px;
+            padding: 20px 25px;
+            margin: 25px 0;
+            border: 1px solid #b8d0e0;
+        }
+        .argument-block h3 {
+            color: #0b2b4a;
+            margin-bottom: 10px;
+        }
+        .argument-block ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .argument-block ul li {
+            padding: 6px 0;
+            padding-left: 30px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="%232b6a9e" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>') left center no-repeat;
+            background-size: 18px;
+            margin-bottom: 4px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .argument-block ul li strong {
+            color: #0b2b4a;
+        }
         @media (max-width: 700px) {
             .container {
                 padding: 20px;
@@ -367,7 +394,7 @@
         </p>
     </div>
 
-    <!-- ЮРИДИЧЕСКОЕ ОБОСНОВАНИЕ (НОВЫЙ БЛОК) -->
+    <!-- ЮРИДИЧЕСКОЕ ОБОСНОВАНИЕ -->
     <div class="legal-note">
         <h3 style="margin:0 0 8px 0; color:#7a5d1a;">⚖️ Юридическое обоснование необходимости голосования</h3>
         <p>
@@ -388,6 +415,21 @@
         </p>
     </div>
 
+    <!-- НОВЫЙ БЛОК: КЛЮЧЕВЫЕ АРГУМЕНТЫ ДЛЯ ЖИЛЬЦОВ (ТЕЗИСНО) -->
+    <div class="argument-block">
+        <h3>📢 Ключевые аргументы в пользу ремонта (тезисно)</h3>
+        <ul>
+            <li><strong>Состояние подъездов требует не точечных заплаток, а комплексного ремонта</strong> – стены, полы, освещение, входные группы находятся в неудовлетворительном состоянии.</li>
+            <li><strong>Действующий муниципальный тариф (22,34 руб./м²) – минимальный</strong> и позволяет лишь локальные работы, которых недостаточно для реального обновления.</li>
+            <li><strong>Ремонт возможен только после решения общего собрания</strong> – все надзорные органы подтвердили это в ответах на наши обращения.</li>
+            <li><strong>Повышение тарифа – временное (всего на 1 год)</strong> и целевое: дополнительные средства пойдут исключительно на ремонт первых этажей.</li>
+            <li><strong>Для средней квартиры (50 м²) доплата составит всего 283 руб./мес.</strong> – это меньше 1% от среднего коммунального платежа, а результат будет радовать годы.</li>
+            <li><strong>Ремонт подъездов повышает рыночную стоимость квартир на 5–10%</strong> – вложения окупаются уже при продаже или сдаче в аренду.</li>
+            <li><strong>Без нашего решения ремонт не начнётся никогда</strong> – состояние будет только ухудшаться, и через несколько лет потребуется уже капитальный ремонт, который обойдётся в разы дороже.</li>
+            <li><strong>Все работы будут проходить под контролем собственников</strong> – смета открыта, УК отчитывается о каждом этапе.</li>
+        </ul>
+    </div>
+
     <!-- Примеры для квартир -->
     <div style="display:flex; flex-wrap:wrap; gap:20px; margin:25px 0;">
         <div class="example-block" style="flex:1;">
@@ -402,7 +444,7 @@
         </div>
     </div>
 
-    <!-- Аргументы для выступления -->
+    <!-- Аргументы для выступления (кратко) -->
     <div style="background:#f0f7ea; border-radius:14px; padding:20px 25px; margin:25px 0; border-left:6px solid #1e7b4c;">
         <h3 style="margin-bottom:8px;">🗣️ Почему стоит голосовать «ЗА»?</h3>
         <ul style="list-style:none; padding-left:0; font-size:15px; line-height:1.8;">
